@@ -147,3 +147,13 @@ section{padding:72px 0}
   .cards{grid-template-columns:1fr}
 }
 .video img,.card .thumb img{color:transparent;font-size:0}
+
+/* ===== Long Table Media shared header/footer (v2) ===== */
+:root{--gold:#D4A24C;--gold-2:#F2D79B;--ink-0:#0a0a0b}
+.site-header{background:var(--ink-0);border-bottom:2px solid var(--gold)}
+.brand.ltm img{width:auto;height:40px}
+.nav a.link.ltai-link{color:var(--yellow)}
+.site-footer{background:var(--ink-0);border-top:2px solid var(--gold)}
+.site-footer .brand.ltm img{height:44px;width:auto}
+.foot-mail{color:var(--gold-2)!important}
+@media (max-width:560px){.brand.ltm img{height:30px}.nav ul{gap:2px}}
